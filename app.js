@@ -17,4 +17,3 @@ app.use("/api", todosRoute); // on utilise le router comme middleware // middlew
 app.listen(process.env.PORT, () => {
      console.log(`Server listening on port ${process.env.PORT}`);
 }); // on indique à l'utilisateur qu'on va se connecter à utiliser le port 3000
-   
